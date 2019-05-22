@@ -1,0 +1,2 @@
+export const SESSION_STATUS = 'SESSION_STATUS'
+export const SESSION_KEY = 'SESSION_KEY'

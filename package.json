@@ -1,0 +1,41 @@
+{
+  "name": "Vier",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-app-intro-slider": "^2.0.1",
+    "react-native-calendars": "^1.60.0",
+    "react-native-gesture-handler": "^1.0.16",
+    "react-native-material-ripple": "^0.8.0",
+    "react-native-popup-dialog": "^0.18.2",
+    "react-native-responsive-screen": "^1.2.1",
+    "react-native-selectme": "^1.2.3",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.3.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "react-native-swiper": "^1.5.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
